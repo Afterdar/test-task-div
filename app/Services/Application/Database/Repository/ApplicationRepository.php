@@ -10,7 +10,6 @@ use App\Http\Requests\Application\UpdateApplicationRequest;
 use App\Services\Application\Database\Models\Application;
 use Carbon\Carbon;
 use Gerfey\Repository\Repository;
-use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 
 class ApplicationRepository extends Repository
